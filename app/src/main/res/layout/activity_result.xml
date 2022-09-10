@@ -6,22 +6,76 @@
     android:layout_height="match_parent"
     android:background="@drawable/ic_bg"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     tools:context=".ResultActivity">
 
     <TextView
+        android:id="@+id/tv_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="RESULT"
+        android:textSize="25sp"
+        android:text="Result"
         android:textColor="@color/white"
         android:textStyle="bold"/>
 
 
     <ImageView
+        android:layout_marginTop="25dp"
+        android:id="@+id/iv_trophy"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_flag_of_denmark"/>
+
+    <TextView
+        android:id="@+id/tv_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hey, Congradulations!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hey, Congradulations!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="UserName"/>
+
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hey, Congradulations!"
+        android:textColor="#C6C6C6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Your score is 9 out of 10"/>
+
+    <Button
+        android:id="@+id/btn_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_flag_of_denmark"/>
+        android:layout_marginTop="16dp"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/white"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:text="FINISH"/>
+
+
+
+
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
