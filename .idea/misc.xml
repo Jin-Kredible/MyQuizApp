@@ -7,6 +7,9 @@
         <entry key="..\:/Users/JINS/AndroidStudioProjects/MyQuizApp/app/src/main/res/drawable/selected_option_border_bg.xml" value="0.1535" />
         <entry key="..\:/Users/JINS/AndroidStudioProjects/MyQuizApp/app/src/main/res/layout/activity_main.xml" value="0.2814814814814815" />
         <entry key="..\:/Users/JINS/AndroidStudioProjects/MyQuizApp/app/src/main/res/layout/activity_quiz_questions.xml" value="0.2814814814814815" />
+        <entry key="app/src/main/res/drawable/correct_option_border_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/wrong_option_border_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.2520833333333333" />
       </map>
     </option>
   </component>
